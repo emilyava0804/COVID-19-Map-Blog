@@ -1,0 +1,35 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'map/styles.css' %}">
+
+    <style type="text/css">
+    	body {
+    		background-image: url('{% static 'map/images/night-background.png' %}');
+    		background-size: cover;
+    	}
+    </style>
+
+
+    {% if title %}
+    <title>COVID Talks - {{ title }}</title>
+    {% else %}
+    <title>COVID Talks</title>
+    {% endif %}
+
+</head>
+
+
+<body>
+
+
+    {% block content %}{% endblock content %}
+
+
+</body>
+</html>
