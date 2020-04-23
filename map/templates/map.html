@@ -9,22 +9,44 @@
   <a href="\map\about">About Us</a>
   <a class="active" href="\map\map">Maps</a>
   <a href="\map\information">Information</a>
-  <a href="\map\blog">Blog</a>
-  <a href="\map\profile">Profile</a>
+  <a href="\map\citations">Citations</a>
 </div>
 
 <!-- Main Body -->
-<div id="map-choice" class="content-box shadow" style="background-color: #263063; margin-top: 100px">
-	<h1 class="text-center">Mapping of COVID-19 Spread</h1>
-	<h3 class="text-center">We will seperate our maps into timelines, from when COVID-19 was first discovered until present. Click on a time to learn more.</h3>
+<div id="map-choice" class="content-box shadow" style="background-color: #045a8d; margin-top: 100px">
+	<h1 class="text-center">Mapping of COVID-19 Spread in the US</h1>
+	<h3 class="text-center">We will seperate our maps into timelines, from when COVID-19 was first discovered until present.</h3>
 	<div class="map-area">
-		<h3><a href="#">Jan. 1, 2020 - The Beginning</a></h3>
-		<img src="{% static 'map/images/map.png' %}" alt="people-at-concert" style="height: 400px; width: 900px" usemap="#first-map">
-		<!-- <map name="first-map">
-			<area shape="circle" coords="90,58,3" href="https://www.foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources" alt="Wuhan">
-		</map> -->
+		<h3>Jan. 20, 2020 - The Beginning</h3>
+		<h5>Total Cases: 1</h5>
+		<img src="{% static 'map/images/map-1.png' %}" alt="first-case" style="height: 550px; width: 900px">
 	</div>
-	
+	<div class="map-area">
+		<h3>Feb. 1, 2020 - Slow Spread</h3>
+		<h5>Total Cases: 8</h5>
+		<img src="{% static 'map/images/map-2.png' %}" alt="slow-spread" style="height: 550px; width: 900px">
+	</div>
+		<div class="map-area">
+		<h3>March 1, 2020 - Escalation</h3>
+		<h5>Total Cases: 30</h5>
+		<img src="{% static 'map/images/map-3.png' %}" alt="slow-spread" style="height: 550px; width: 900px">
+	</div>
+	<div class="map-area">
+		<h3>March 12, 2020 - Panic Begins</h3>
+		<h5>Total Cases: 1,669</h5>
+		<img src="{% static 'map/images/map-4.png' %}" alt="slow-spread" style="height: 550px; width: 900px">
+	</div>
+		<div class="map-area">
+		<h3>March 20, 2020 - Cases Skyrocket</h3>
+		<h5>Total Cases: 18,747</h5>
+		<img src="{% static 'map/images/map-5.png' %}" alt="slow-spread" style="height: 550px; width: 900px">
+	</div>
+	<div class="map-area">
+		<h3>April 23, 2020 - Global Pandemic</h3>
+		<h5>Total Cases: 239,279</h5>
+		<img src="{% static 'map/images/map-6.png' %}" alt="slow-spread" style="height: 550px; width: 900px">
+	</div>
+</div>
 </div>
 
 

@@ -17,9 +17,6 @@ def map(request):
 def information(request):
 	return render(request, 'information.html', {'title': 'information'})
 
-def blog(request):
-	return render(request, 'blog.html', {'title': 'blog'})
-
-def profile(request):
-	return render(request, 'profile.html', {'title': 'profile'})
+def citations(request):
+	return render(request, 'citations.html', {'title': 'blog'})
 

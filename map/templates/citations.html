@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style type="text/css">
+	a {
+		color: white;
+	}
+
+	a:hover {
+		color: #D09EE3;
+	}
+</style>
+<!-- Header -->
+<div class="topnav">
+  <a href="\map\home">Home</a>
+  <a href="\map\about">About Us</a>
+  <a href="\map\map">Maps</a>
+  <a href="\map\information">Information</a>
+  <a class="active" href="\map\citations">Citations</a>
+</div>
+
+<!-- Main Body -->
+<div class="content-box shadow">
+	<h1 class="text-center">Where Our Information Comes From</h1>
+	<ul class="text-center">
+		<li><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1"> WHO</a></li>
+		<li><a href="https://www.nytimes.com/interactive/2020/03/21/us/coronavirus-us-cases-spread.html"> NYTimes</a></li>
+		<li><a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">CDC</a></li>
+		<li><a href="https://www.statista.com/statistics/1102807/coronavirus-covid19-cases-number-us-americans-by-state/">Statista</a></li>
+	</ul>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+	&copy; Talks with COVID - Emily Ava Cole
+</div>
+
+{% endblock content %}

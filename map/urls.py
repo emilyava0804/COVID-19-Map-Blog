@@ -10,7 +10,5 @@ urlpatterns = [
    path('home/', map_views.home, name='home'),
    path('map/', map_views.map, name='map'),
    path('information/', map_views.information, name='information'),
-   path('blog/', map_views.blog, name='blog'),
-   path('profile/', map_views.profile, name='profile')
-
+   path('citations/', map_views.citations, name='citations'),
 ]
