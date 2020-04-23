@@ -1,16 +1,36 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 
+<!-- Header -->
 <div class="topnav">
   <a href="\map\home">Home</a>
   <a href="\map\about">About Us</a>
-  <a class="active" href="\map\map">Map</a>
+  <a class="active" href="\map\map">Maps</a>
   <a href="\map\information">Information</a>
   <a href="\map\blog">Blog</a>
   <a href="\map\profile">Profile</a>
 </div>
 
-<h1>Mapping of COVID-19 Spread</h1>
+<!-- Main Body -->
+<div id="map-choice" class="content-box shadow" style="background-color: #263063; margin-top: 100px">
+	<h1 class="text-center">Mapping of COVID-19 Spread</h1>
+	<h3 class="text-center">We will seperate our maps into timelines, from when COVID-19 was first discovered until present. Click on a time to learn more.</h3>
+	<div class="map-area">
+		<h3><a href="#">Jan. 1, 2020 - The Beginning</a></h3>
+		<img src="{% static 'map/images/map.png' %}" alt="people-at-concert" style="height: 400px; width: 900px" usemap="#first-map">
+		<!-- <map name="first-map">
+			<area shape="circle" coords="90,58,3" href="https://www.foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources" alt="Wuhan">
+		</map> -->
+	</div>
+	
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+	&copy; Talks with COVID - Emily Ava Cole
+</div>
 
 {% endblock content %}

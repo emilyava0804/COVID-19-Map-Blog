@@ -1,10 +1,15 @@
-/* Add a black background color to the top navigation */
+/* Header */
 .topnav {
   background-color: #FFD4F2;
   overflow: hidden;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: black;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: black;
@@ -14,18 +19,101 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #C26FBF;
   color: white;
 }
 
-h1 {
+
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD4F2;
+  color: black;
+  text-align: center;
+}
+
+
+
+/* Text Styling */
+h1, h3, ul, li, div, p {
 	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* Div boxes */
+.content-box {
+	background-color: #010106; 
+	border: thick; 
+	width: 60%; 
+	margin: auto; 
+	margin-top: 100px; 
+	margin-bottom: 100px; 
+	padding: 25px;
+}
+
+/* About Us page */
+.col-two {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.col-header {
+	font-style: italic;
+}
+
+/* Map Page */
+#map-choice {
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.map-area {
+	margin: auto;
+	text-align: center;
+}
+
+#map-choice a {
+	color: white;
+}
+
+#map-choice a:hover {
+	color: #D09EE3;
+}
+
+map {
+  display: inline;
 }

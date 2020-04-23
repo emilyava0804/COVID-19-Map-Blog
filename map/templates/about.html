@@ -2,15 +2,47 @@
 
 {% block content %}
 
+<!-- Header -->
 <div class="topnav">
   <a href="\map\home">Home</a>
   <a class="active" href="\map\about">About Us</a>
-  <a href="\map\map">Map</a>
+  <a href="\map\map">Maps</a>
   <a href="\map\information">Information</a>
   <a href="\map\blog">Blog</a>
   <a href="map\profile">Profile</a>
 </div>
 
-<h1>About Us</h1>
+<!-- Main Body -->
+<div class="col-container content-box shadow">
+	<h1 class="text-center" style="font-size: 50px">About Us</h1>
+	<div class="row" style="border-bottom: thick; border-color: white">
+		<div class="col-two">
+			<h1 class="col-header">Who We Are</h1>
+			<p style="padding-right: 25px; padding-left: 25px">We are a group of people who are passionate about what we do, which is helping people and staying informed.</p>
+		</div>
+		<div class="col-two">
+			<h1 class="col-header">Where We Source</h1>
+			<p style="padding-right: 25px; padding-left: 25px">We make it a point to only have information that is 100% true. For this reason, we only source from verified services, such as news reports, studies, and research agencies. All of our information is cited at the bottom of the page. </p>
+		</div>
+	</div>
+	<div class="row" style="padding-top: 20px">
+		<div class="col-two">
+			<h1 class="col-header">Why We Do It</h1>
+			<p>We want to stop the uninformed information about COVID-19 from spreading. We are in scary times, but we can feel better about this by educating ourselves and surrounding ourselves with like minded people ready to tackle this and move on with our lives.</p>
+		</div>
+		<div class="col-two">
+			<h1 class="col-header">Contact Us</h1>
+			<ul>
+				<li>Email: emily.cole0804@gmail.com</li>
+				<li>Phone: 555-555-5555</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+	&copy; Talks with COVID - Emily Ava Cole
+</div>
 
 {% endblock content %}
